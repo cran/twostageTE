@@ -1,0 +1,13 @@
+exportPattern("^[[:alpha:]]+")
+import(isotone)
+
+S3method(print, twostageTE)
+S3method(plot, twostageTE)
+S3method(summary, twostageTE)                           
+
+
+
+
+
+
+
