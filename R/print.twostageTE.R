@@ -20,8 +20,8 @@ print.twostageTE <- function(x, ...){
 
 	cat(sprintf("\n%.1f%% Confidence Interval", x$level*100))
 	if (is.na(x$L2)) {
-#		out = array(data=c(length(x$Y1),x$estimate, x$L1,x$U1), c(1,4))
-#		colnames(out) = c("n", "Lower", "d0_hat", "Upper")
+#		out <- array(data=c(length(x$Y1),x$estimate, x$L1,x$U1), c(1,4))
+#		colnames(out) <- c("n", "Lower", "d0_hat", "Upper")
 #		cat(sprintf("n=%d samples, d0_hat=%.3f, CI: [%.3f,%.3f]\n",length(x$Y1),x$estimate, x$L1,x$U1))
 		cat(sprintf("\nn   Lower   d0_hat   Upper\n%d   %.3f   %.3f   %.3f\n",length(x$Y1),x$L1,x$estimate,x$U1))
 	}

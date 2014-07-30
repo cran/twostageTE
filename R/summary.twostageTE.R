@@ -23,19 +23,19 @@ function(object,...){
 	if (is.na(object$L2)) {
 		cat(sprintf("\nn   Lower   d0_hat   Upper\n%d   %.3f   %.3f   %.3f\n",length(object$Y1),object$L1,object$estimate,object$U1))
 		if (length(grep(pattern="IR-likelihood", object$call)) == 0) {
-			cat(sprintf("\nAuobjectiliary Estimates\nf'(d_0)   sigma^2\n%.3f     %.3f\n",object$deriv_d0,object$sigmaSq))
+			cat(sprintf("\nAuxiliary Estimates\nf'(d_0)   sigma^2\n%.3f     %.3f\n",object$deriv_d0,object$sigmaSq))
 		}
 		else {
-			cat(sprintf("\nAuobjectiliary Estimates\nf'(d_0)   sigmaSq\nNA     %.3f\n",object$sigmaSq))
+			cat(sprintf("\nAuxiliary Estimates\nf'(d_0)   sigmaSq\nNA     %.3f\n",object$sigmaSq))
 		}
 	}
 	else {
 		cat(sprintf("\nn1   n2   Lower   d0_hat   Upper\n%d   %d   %.3f   %.3f   %.3f\n",length(object$Y1),length(object$Y2),object$L2,object$estimate,object$U2))
 		if (length(grep(pattern="IR-likelihood", object$call)) == 0) {
-			cat(sprintf("\nAuobjectiliary Estimates\nf'(d_0)   sigma^2\n%.3f     %.3f\n",object$deriv_d0,object$sigmaSq))
+			cat(sprintf("\nAuxiliary Estimates\nf'(d_0)   sigma^2\n%.3f     %.3f\n",object$deriv_d0,object$sigmaSq))
 		}
 		else {
-			cat(sprintf("\nAuobjectiliary Estimates\nf'(d_0)   sigmaSq\nNA     %.3f\n",object$sigmaSq))
+			cat(sprintf("\nAuxiliary Estimates\nf'(d_0)   sigmaSq\nNA     %.3f\n",object$sigmaSq))
 		}
 	}
   	invisible(object)

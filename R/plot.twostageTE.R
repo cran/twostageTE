@@ -15,13 +15,13 @@ function(x, ...){
 	  jumps <- ((1:length(yval))[!duplicated(yval)]-1)[-1]   #jumps of fitted step function
 	  jumps <- c(1, jumps, length(xval))
 	  
-	  lines(xval, yval, col = col, lwd = 1, type = "S")
+	  lines(xval, yval, col = col, lwd = 1, type <- "S")
 	  points(xval[jumps], yval[jumps], col = col, pch = 13)
 	#  grid()
 	}
-	pava1 = gpava(z=x$X1, y=x$Y1)
+	pava1 <- gpava(z=x$X1, y=x$Y1)
 	if (!is.na(x$L2)) {
-		pava2 = gpava(z=x$X2, y=x$Y2)
+		pava2 <- gpava(z=x$X2, y=x$Y2)
 	}
 
 	if (!is.na(x$L2)) {
