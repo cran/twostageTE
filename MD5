@@ -1,9 +1,9 @@
-ed96f20de05e417929131148215c010b *DESCRIPTION
+cee376eb8e2fc8b6b4caa61a5e827e05 *DESCRIPTION
 6e9090c294e867e6aea83cdcd28c931e *NAMESPACE
 2dda1931db6210572ad566d355ce00f2 *R/estimateDeriv.R
 a1959838b916b233bbfa8b94dd34f292 *R/estimateSigmaSq.R
 e26f2c9aa7fa9e5d54fd5d5f1310db2d *R/likelihoodConfidenceInterval.R
-8c57314918af457c86858d9cf083cb3c *R/linearBootstrapConfidenceInterval_stageTwo.R
+f874800d816fe3fc1d19cbd8cf6ebec2 *R/linearBootstrapConfidenceInterval_stageTwo.R
 846785e46c96a0deea0c853ef414234a *R/pava.R
 dd65ff57b0fa938cafd4cf8096c3a0ae *R/plot.twostageTE.R
 659292cce753844558aec14effc3373e *R/print.twostageTE.R
