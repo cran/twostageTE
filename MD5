@@ -1,7 +1,7 @@
-cee376eb8e2fc8b6b4caa61a5e827e05 *DESCRIPTION
-6e9090c294e867e6aea83cdcd28c931e *NAMESPACE
+5d43ba9c72c07e50eda3e39a9966b3e0 *DESCRIPTION
+06dfc849659f35042cad2ae5c557eb00 *NAMESPACE
 2dda1931db6210572ad566d355ce00f2 *R/estimateDeriv.R
-a1959838b916b233bbfa8b94dd34f292 *R/estimateSigmaSq.R
+48505a1cc892097501fb0372d170caa7 *R/estimateSigmaSq.R
 e26f2c9aa7fa9e5d54fd5d5f1310db2d *R/likelihoodConfidenceInterval.R
 f874800d816fe3fc1d19cbd8cf6ebec2 *R/linearBootstrapConfidenceInterval_stageTwo.R
 846785e46c96a0deea0c853ef414234a *R/pava.R
@@ -16,6 +16,7 @@ f51fa08afe5ae32ac9d61663e0079739 *R/threshold_estimate_locLinear.R
 b019ba0f0d4459389d673842d8f1771c *R/waldConfidenceInterval_ir_stageTwo.R
 b3cbda18db917257a59c6f30ea097a55 *data/RVforLR_realizations.RData
 52ec3296cd2fbfe5c16186a7c00e3f2a *data/chernoff_realizations.RData
+6776f6bef1f945b78d6b3501bfa61c93 *inst/CITATION
 25fa23afd73348e00a7321041b4799d4 *man/RVforLR_realizations.Rd
 3f69dd5083e8683c33995c4a7256d280 *man/chernoff_realizations.Rd
 25a94fe9ed355cce0742f479cf23346c *man/estimateDeriv.Rd
@@ -30,6 +31,6 @@ bd5c43161741955a9559a73cd692911e *man/plot.twostageTE.Rd
 d7a6faaaf2c41d8765d7a8ac96bc7115 *man/summary.twostageTE.Rd
 a04e5e32492b455e156b5b466ef363e6 *man/threshold_estimate_ir.Rd
 70e56b4234dcb1b4a59def9480016405 *man/threshold_estimate_locLinear.Rd
-8529cfaa29128abc09afb1c13134d6f5 *man/twostageTE-package.Rd
+5b752392d64cfb9f2176f589a4e5af90 *man/twostageTE-package.Rd
 a410b7cda717ef69db8f2488c1457c5b *man/waldConfidenceInterval_ir_stageOne.Rd
 699e5befe2728375034b32ede4f8534b *man/waldConfidenceInterval_ir_stageTwo.Rd

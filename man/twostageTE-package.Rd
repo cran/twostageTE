@@ -29,8 +29,10 @@ Shawn Mankad
 Maintainer: Shawn Mankad <smankad@umich.edu>
 }
 \references{
-Threshold Value Estimation using Two-stage Plans in R, Journal 
-of Statistical Software, Mankad, Michailidis and Banerjee, Submitted.
+Shawn Mankad, George Michailidis, Moulinath Banerjee (2015).
+Threshold Value Estimation Using Adaptive Two-Stage Plans in R.
+Journal of Statistical Software, 67(3), 1-19.
+doi:10.18637/jss.v067.i03
 }
 \keyword{ package }
 \examples{

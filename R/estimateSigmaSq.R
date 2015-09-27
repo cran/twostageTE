@@ -1,14 +1,16 @@
 estimateSigmaSq <-
 function (explanatory, response) {
 	tb = table(explanatory)
-	if (sum(tb > 1)) {
+	if (sum(tb > 1) > 0) {
 		for (i in 1:sum(tb > 1)) {
-			response= c(response, mean(response[explanatory == as.numeric(names(tb)[which(tb > 1)[i]])]))
-			response = response[-1 * which(explanatory == as.numeric(names(tb)[which(tb > 1)[i]]))]
-			explanatory= explanatory[-1 * which(explanatory == as.numeric(names(tb)[which(tb > 1)[i]]))]
+			ind = which(as.character(explanatory) == names(tb)[which(tb > 1)[i]] )
+			response= c(response, mean(response[ind]))
+			response = response[-1 * ind]
+			explanatory= explanatory[-1 * ind]
 			explanatory= c(explanatory, as.numeric(names(tb)[which(tb > 1)[i]]))
 		}
 	}
+
 	ind <- order(explanatory, decreasing=FALSE)
 	if (sum(diff(ind) < 0) != 0) {
 		explanatory <- explanatory[ind]
